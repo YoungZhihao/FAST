@@ -13,7 +13,7 @@ Copyright (c) 2025 by Zhihao Young, All Rights Reserved.
 from math import gcd, lcm, floor, ceil
 from MakespanOptimizeFunc import SpaceCompression, OptMakespanSearch
 from MakespanCalFunc import PrecisionAnalysis, Makespan
-from StandardFunction import ExcelWrite, ReadData
+from StandardFunction import ExcelWrite
 import time
 import xlrd, xlwt
 
@@ -46,3 +46,4 @@ def MakespanOptimization(Tasks, TaskChains, Periods, Baselines, Executions, Dead
 
     return 0
     
+
